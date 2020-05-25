@@ -1,8 +1,6 @@
-let a=+prompt("a?",0);
-let result = 1;
-
-function mul() {
- result = a * 3.14;
- console.log(result);
+function mul(a) {
+ let result = a * 3.14;
  return result;
 }
+
+module.exports = mul;
